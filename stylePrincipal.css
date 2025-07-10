@@ -8,20 +8,36 @@ body{
 }
 
 header{
-    background: linear-gradient(to right, rgb(43, 255, 1),rgb(0, 238, 255),rgb(247, 0, 255));
+    background-color: rgb(0, 97, 84);
     text-align: center;
     font-size: 25px;
     font-family: Tahoma;
+    display: flex;
 }
     
 main{ 
-    background-color: whitesmoke;
+    background-color: rgb(214, 199, 185);
     max-height: 100vh;
 }
 
-nav
+main div{
+    background-color: rgb(214, 199, 185);
+    text-align: center;
+}
+main div h1{
+    font-weight: 30px;
+}
 
-header{
-    background: linear-gradient(to right, rgb(0, 68, 255),rgb(255, 0, 242), rgb(255, 251, 0));
-    max-height: 100vh;
+main div a{
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(0, 97, 84);
+}
+main div img{
+    height: 200px;
+    width: 130px;
+}
+
+footer{
+    background-color: rgb(214, 199, 185);
 }
