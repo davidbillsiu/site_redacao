@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0
+}
+body{
+    height: 844px;
+    width: 390px;
+}
+
+header{
+    background: linear-gradient(to right, rgb(43, 255, 1),rgb(0, 238, 255),rgb(247, 0, 255));
+    text-align: center;
+    font-size: 25px;
+    font-family: Tahoma;
+}
+    
+main{ 
+    background-color: whitesmoke;
+    max-height: 100vh;
+}
+
+nav
+
+header{
+    background: linear-gradient(to right, rgb(0, 68, 255),rgb(255, 0, 242), rgb(255, 251, 0));
+    max-height: 100vh;
+}
