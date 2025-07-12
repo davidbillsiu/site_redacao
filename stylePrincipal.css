@@ -2,6 +2,41 @@
     margin: 0;
     padding: 0
 }
+
+.rotate-scale-up-diag-2 {
+	-webkit-animation: rotate-scale-up-diag-2 0.8s linear both;
+	        animation: rotate-scale-up-diag-2 0.8s linear both;
+}
+
+@-webkit-keyframes rotate-scale-up-diag-2 {
+  0% {
+    -webkit-transform: scale(1) rotate3d(-1, 1, 0, 0deg);
+            transform: scale(1) rotate3d(-1, 1, 0, 0deg);
+  }
+  50% {
+    -webkit-transform: scale(2) rotate3d(-1, 1, 0, 180deg);
+            transform: scale(2) rotate3d(-1, 1, 0, 180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotate3d(-1, 1, 0, 360deg);
+            transform: scale(1) rotate3d(-1, 1, 0, 360deg);
+  }
+}
+@keyframes rotate-scale-up-diag-2 {
+  0% {
+    -webkit-transform: scale(1) rotate3d(-1, 1, 0, 0deg);
+            transform: scale(1) rotate3d(-1, 1, 0, 0deg);
+  }
+  50% {
+    -webkit-transform: scale(2) rotate3d(-1, 1, 0, 180deg);
+            transform: scale(2) rotate3d(-1, 1, 0, 180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotate3d(-1, 1, 0, 360deg);
+            transform: scale(1) rotate3d(-1, 1, 0, 360deg);
+  }
+}
+
 body{
     height: 844px;
     width: 390px;
@@ -36,12 +71,25 @@ main div h1{
 }
 
 main div a{
+    margin-right: 7px;
     font-size: 1.5rem;
     color: rgb(49, 34, 2);
     text-align: center;
     text-decoration: none;
     background-color: rgb(230, 224, 218);
+    border-radius: 3px;
+}
+
+/* Transição quando passar o mouse em cima dos links */
+a:hover{
+    margin-right: 7px;
+    font-size: 1.7rem;
+    color: rgb(0, 97, 84);
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
+    transition: 1.5s;
 }
 
 
