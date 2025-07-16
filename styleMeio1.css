@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+body{
+    height: 844px;
+    width: 390px;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    background-color: rgb(7, 148, 60);
+    text-align: center;
+}
+
+header nav{
+    color: rgb(7, 148, 60);
+    
+}
+
+header a{
+    text-decoration: none;
+    background-color:rgb(255, 255, 255);
+    color: rgb(7, 148, 60);
+    border-radius: 4px;
+    font-size: 1.5rem;
+}
+
+header h1{
+    font-size: 35px;
+    color: rgb(240, 241, 236);
+}
+
+.roll-in-blurred-left {
+	-webkit-animation: roll-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: roll-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+    
+@-webkit-keyframes roll-in-blurred-left {
+  0% {
+    -webkit-transform: translateX(-1000px) rotate(-720deg);
+            transform: translateX(-1000px) rotate(-720deg);
+    -webkit-filter: blur(50px);
+            filter: blur(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes roll-in-blurred-left {
+  0% {
+    -webkit-transform: translateX(-1000px) rotate(-720deg);
+            transform: translateX(-1000px) rotate(-720deg);
+    -webkit-filter: blur(50px);
+            filter: blur(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+
+main{
+    background-color: rgb(240, 241, 236);
+}
+
+main div img{
+    height: 510px;
+    width: 390px;
+}
+
+main div h1,h3{
+    text-align: center;
+    color: rgb(7, 148, 60);
+}
+
+footer{
+    background-color: rgb(7, 148, 60);
+    text-align: center;
+}
+
+footer nav a{
+    text-decoration: none;
+    background-color: rgb(240, 241, 236);
+    color: rgb(7, 148, 60);
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+footer{
+    color: rgb(240, 241, 236);
+}
+
+footer a img{
+    width: 24px;
+    height: 24px;
+}

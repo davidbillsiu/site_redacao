@@ -16,6 +16,11 @@ header{
     text-align: center;
 }
 
+header nav{
+    color: rgb(2, 80, 183);
+    
+}
+
 header a{
     text-decoration: none;
     background-color: rgb(240, 241, 236);
